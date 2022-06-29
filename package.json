@@ -17,6 +17,7 @@
 		"@playwright/test": "^1.22.2",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"@types/webappsec-credential-management": "^0.6.2",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"autoprefixer": "^10.4.7",
@@ -33,5 +34,11 @@
 		"tslib": "^2.3.1",
 		"typescript": "^4.7.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"cbor": "^8.1.0",
+		"cbor-js": "^0.1.0",
+		"cbor-web": "^8.1.0",
+		"crypto-random-string": "^5.0.0"
+	}
 }

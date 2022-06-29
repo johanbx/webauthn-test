@@ -8,7 +8,15 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		vite: () => ({
+			build: {
+				commonjsOptions: {
+					transformMixedEsModules: true,
+					exclude: ['node_modules/cbor/**']
+				}
+			}
+		})
 	}
 };
 
