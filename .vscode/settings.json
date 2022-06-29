@@ -1,0 +1,12 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "svelte"
+  },
+  "tailwindCSS.experimental.classRegex": ["_?class=[\"']([^'\"]*)['\"]", "[cC]ss = `([^`]*)?`"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2
+}
